@@ -27,7 +27,7 @@ The application templates provided in this repo scale up to **millions of pages 
 
 The apps can be run as **Docker containers**, and expose an **HTTP API** to connect the frontend. To allow quick testing and demos, some app templates also include an optional Streamlit UI which connects to this API. 
 
-The apps rely on the [Pathway Live Data framework](https://github.com/pathwaycom/pathway) for data source synchronization and for serving API requests (Pathway is a standalone Python library with a Rust engine built into it). They bring you a **simple and unified application logic** for back-end, embedding, retrieval, LLM tech stack. There is no need to integrate and maintain separate modules for your Gen AI app: ~Vector Database (e.g. Pinecone/Weaviate/Qdrant) + Cache (e.g. Redis) + API Framework (e.g. Fast API)~. Pathway's default choice of **built-in vector index** is based on the lightning-fast [usearch](https://github.com/unum-cloud/usearch) library, and **hybrid full-text indexes** make use of [Tantivy](https://github.com/quickwit-oss/tantivy) library. Everything works out of the box.
+The apps rely on the [Pathway Live Data framework](https://github.com/pathwaycom/pathway) for data source synchronization and for serving API requests (Pathway is a standalone Python library with a Rust engine built into it). They bring you a **simple and unified application logic** for back-end, embedding, retrieval, LLM tech stack. 
 
 ## Getting started
 
@@ -51,23 +51,6 @@ Automated real-time knowledge mining and alerting:
 
 (Check out the [`Alerting when answers change on Google Drive`](https://github.com/pathwaycom/llm-app/tree/main/examples/pipelines/drive_alert) app example.)
 
-
-###  Do-it-Yourself Videos
-
-▶️ [An introduction to building LLM apps with Pathway](https://www.youtube.com/watch?v=kcrJSk00duw) - by [Jan Chorowski](https://scholar.google.com/citations?user=Yc94070AAAAJ)
-
-▶️ [Let's build a real-world LLM app in 11 minutes](https://www.youtube.com/watch?v=k1XGo7ts4tI) - by [Pau Labarta Bajo](https://substack.com/@paulabartabajo)
-
-
-## Troubleshooting
-
-To provide feedback or report a bug, please [raise an issue on our issue tracker](https://github.com/pathwaycom/pathway/issues).
-
-## Contributing
-
-Anyone who wishes to contribute to this project, whether documentation, features, bug fixes, code cleanup, testing, or code reviews, is very much encouraged to do so. If this is your first contribution to a GitHub project, here is a [Get Started Guide](https://docs.github.com/en/get-started/quickstart/contributing-to-projects). 
-
-If you'd like to make a contribution that needs some more work, just raise your hand on the [Pathway Discord server](https://discord.com/invite/pathway) (#get-help) and let us know what you are planning!
 
 ## Supported and maintained by
 
