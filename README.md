@@ -52,13 +52,4 @@ Automated real-time knowledge mining and alerting:
 (Check out the [`Alerting when answers change on Google Drive`](https://github.com/pathwaycom/llm-app/tree/main/examples/pipelines/drive_alert) app example.)
 
 
-## Supported and maintained by
 
-<p align="center">
-  <a href="https://github.com/pathwaycom/"><img src="https://pathway.com/logo-light.svg" alt="Pathway"/></a>
-</p>
-<p align="center">
-  <a href="https://pathway.com/solutions/llm-app">
-    <img src="https://img.shields.io/badge/See%20Pathway's%20offering%20for%20AI%20applications-0000FF" alt="See Pathway's offering for AI applications"/>
-  </a>
-</p>
