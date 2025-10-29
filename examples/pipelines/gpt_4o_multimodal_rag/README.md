@@ -25,7 +25,6 @@ The following GIF shows a snippet from our experiments:
 
 ![Regular RAG vs Pathway Multimodal comparison](gpt4o_with_pathway_comparison.gif)
 
-If you want to skip the explanations, you can directly find the code [here](#Running-the-app).
 
 ## Table of contents
 
@@ -263,11 +262,6 @@ RAG applications are most effective when tailored to your specific use case. Her
 - Document parsers and splitters: Fine-tune how documents are processed and broken down for analysis.
 - Indexing and retrieval strategies: Choose the most efficient approach for your data and search needs.
 - User Interface (UI): Design a user-friendly interface that caters to your end users' workflows.
-
-Ready to Get Started? 
-
-Let's discuss how we can help you build a powerful, customized RAG application. [Reach us here to talk or request a demo!](https://pathway.com/solutions/slides-ai-search?modal=requestdemo)
-
 
 ## Quick Links:
 
