@@ -1,13 +1,4 @@
-<p align="center" class="flex items-center gap-1 justify-center flex-wrap">
-    <img src="../../../assets/gcp-logo.svg?raw=true" alt="GCP Logo" height="20" width="20">
-    <a href="https://pathway.com/developers/user-guide/deployment/gcp-deploy">Deploy with GCP</a> |
-    <img src="../../../assets/aws-fargate-logo.svg?raw=true" alt="AWS Logo" height="20" width="20">
-    <a href="https://pathway.com/developers/user-guide/deployment/aws-fargate-deploy">Deploy with AWS</a> |
-    <img src="../../../assets/azure-logo.svg?raw=true" alt="Azure Logo" height="20" width="20">
-    <a href="https://pathway.com/developers/user-guide/deployment/azure-aci-deploy">Deploy with Azure</a> |
-    <img src="../../../assets/render.png?raw=true" alt="Render Logo" height="20" width="20">
-    <a href="https://pathway.com/developers/user-guide/deployment/render-deploy"> Deploy with Render </a>
-</p>
+
 
 # Multimodal RAG with Pathway: Process your Financial Reports and Tables with GPT-4o
 
@@ -21,9 +12,6 @@ We specifically use `GPT-4o` to improve the table data extraction accuracy and d
 
 In this showcase, we focused on the finance domain because financial documents often rely heavily on tables in various forms. This showcase highlights the limitations of traditional RAG setups, which struggle to answer questions based on table data. By contrast, our multimodal RAG approach excels in extracting accurate information from tables.
 
-The following GIF shows a snippet from our experiments:
-
-![Regular RAG vs Pathway Multimodal comparison](gpt4o_with_pathway_comparison.gif)
 
 
 ## Table of contents
@@ -262,14 +250,3 @@ RAG applications are most effective when tailored to your specific use case. Her
 - Document parsers and splitters: Fine-tune how documents are processed and broken down for analysis.
 - Indexing and retrieval strategies: Choose the most efficient approach for your data and search needs.
 - User Interface (UI): Design a user-friendly interface that caters to your end users' workflows.
-
-## Quick Links:
-
-- [Pathway Developer Documentation](https://pathway.com/developers/user-guide/introduction/welcome)
-- [Pathway App Templates](https://pathway.com/developers/templates)
-- [Discord Community of Pathway](https://discord.gg/pathway)
-- [Pathway Issue Tracker](https://github.com/pathwaycom/pathway/issues)
-- [End-to-end dynamic RAG pipeline with Pathway](https://github.com/pathwaycom/llm-app/tree/main/examples/pipelines/demo-question-answering)
-- [Using Pathway as a retriever with LlamaIndex](https://docs.llamaindex.ai/en/stable/examples/retrievers/pathway_retriever/) 
-
-Make sure to drop a "Star" to our repositories if you found this resource helpful!
